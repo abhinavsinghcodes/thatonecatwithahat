@@ -1,0 +1,248 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #222831;
+    min-width: 800px;
+}
+
+.parent {
+    height: auto;
+    width: auto;
+}
+
+.header {
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    background-color: #393E46;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+}
+
+.nav-bar {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-bar button {
+    height: 100%;
+    width: fit-content;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    float: right;
+}
+
+.content {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 28px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-div {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.search-result {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 10px;
+    background-color: #393E46;
+    border-radius: 20px;
+}
+
+h9 {
+    font-size: 16px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.audio {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.song {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    background-color: #00ADB5;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.song audio {
+    border-radius: 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#listen {
+    height: 60px;
+    width: 200px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+
+#download-button {
+    height: 60px;
+    width: 200px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+
+.buttons-of-song {
+    margin: 10px;
+}
+
+#listen:hover,
+#download-button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transform: scale(1.1);
+    margin: 10px;
+}
+
+#listen:active, 
+#download-button:active {
+    opacity: 0.6;
+}
+
+#search {
+    height: 50px;
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.content-1 {
+    height: auto;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #393E46;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main-div1 {
+    height: auto;
+    width: auto;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.div1 {
+    height: auto;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    padding: 5px;
+}
+
+.div2 {
+    height: auto;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    padding: 5px;
+}
+
+.div3 {
+    height: auto;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    padding: 5px;
+}
+
+.div4 {
+    height: auto;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    padding: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    width: 95%;
+}
